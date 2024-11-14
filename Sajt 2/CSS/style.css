@@ -74,7 +74,3 @@ nav a:hover {
 .sidebar a {
     width: 100%; /*za svaki slucaj*/
 }
-@media (max-width: 800px) {
-    nav ul {
-    }
-}
