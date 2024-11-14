@@ -10,7 +10,7 @@ body {
 }
 nav {
     height: 80px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(219, 239, 182);
     display: flex;
     
 }
@@ -51,26 +51,10 @@ nav a:hover {
     animation: jednomRotiraj 1s ease forwards;
 }
 
-.sidebar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 250px;
-    z-index: 999; /*msm ne trba*/
-    background-color: rgba(255, 255, 255, 0.2); /*0.2 transparent*/
-    backdrop-filter: blur(10px);
 
-    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
-    display: none;
-    flex-direction: column; /*u koloni da budu*/
-    align-items: flex-start; /*da ide tekst na levo od boxa belog*/
-    justify-content: flex-start; /*da bude tekst gore*/
-}
 
-.sidebar li {
-    width: 100%; /*da zauzima ceo red*/
-}
-.sidebar a {
-    width: 100%; /*za svaki slucaj*/
+@media (max-width: 800px) {
+    body {
+        font-size: 13px; /* Slightly smaller font size on mobile */
+    }
 }
