@@ -3,6 +3,8 @@
     padding: 0;
 }
 body {
+    background-color: #fff5f7;
+
     background-size: cover;
     background-position:center;
     height: 100vh;
@@ -53,8 +55,286 @@ nav a:hover {
 
 
 
+
+
+
+/*KONTAKT*/
+
+
+
+
+
+
+
+
+.naslovKontakt {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: green;
+    font-size: 50px; /*Kontakt*/
+    
+}
+
+input {
+
+    background-color: aliceblue;
+    width: 70%;
+    margin-left: 12%;
+    font-size: 12px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color: rgb(219, 239, 182);
+    margin-bottom: 20px;
+    
+}
+textarea {
+
+    background-color: aliceblue;
+    width: 70%;
+    margin-left: 12%;
+    font-size: 12px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color: rgb(219, 239, 182);
+    margin-bottom: 20px;
+}
+input:focus-within {
+    outline: none;
+    border-color: rgb(219, 239, 182);
+    border-width: 3px;
+}
+textarea:focus-within {
+    outline: none;
+    border-color: rgb(219, 239, 182);
+    border-width: 3px;
+}
+button {
+    background-color: aliceblue;
+    border-radius: 10px;
+    border-color: rgb(219, 239, 182);
+    font-size: 22px;
+    padding: 10px 18px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+button:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.radio-group, .checkbox-group {
+    width: 70%;
+    margin-left: 12%;
+    margin-bottom: 20px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.radio-group input[type="radio"],
+.checkbox-group input[type="checkbox"] {
+    width:auto;
+    margin: 0;
+}
+
+
+
+
+
+/*O NAMA*/
+
+
+
+
+
+
+.o-nama {
+    background-color: #fff5f7;
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.naslovOnama {
+    font-size: 50px;
+    color: green;
+    margin-bottom: 20px;
+}
+
+.tekstOnama {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.slikaOnama {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+}
+
+
+
+
+
+
+/*POCETNA STRANA*/
+
+
+
+
+
+
+
+.header {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+
+.naslovHome {
+    color: green;
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+.podnaslovHome {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.dugmeHome {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.galerija {
+    padding: 40px 12%;
+    text-align: center;
+    background-color: #fff5f7;
+}
+
+.naslovGalerija {
+    font-size: 36px;
+    color: green;
+    margin-bottom: 20px;
+}
+
+.slikeGalerija {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.slikeGalerija img {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.cta {
+    background-color: rgb(219, 239, 182);
+    padding: 40px 12%;
+    text-align: center;
+}
+
+.naslovCta {
+    font-size: 36px;
+    color: green;
+    margin-bottom: 20px;
+}
+
+.tekstCta {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.dugmeCta {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* PROIZVODI */
+
+
+
+
+
+
+
+.proizvodi {
+    padding: 40px 12%;
+    text-align: center;
+}
+
+.naslovProizvodi {
+    font-size: 36px;
+    color: green;
+    margin-bottom: 30px;
+}
+
+.karticeProizvodi {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.kartica {
+    background-color: white;
+    border: 2px solid #ffe6eb;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.kartica:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.slikaProizvod {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.nazivProizvod {
+    font-size: 15px;
+    color: green;
+    margin-bottom: 10px;
+}
+
 @media (max-width: 800px) {
     body {
-        font-size: 13px; /* Slightly smaller font size on mobile */
+        font-size: 13px; /* Smanjim font na telefonu */
     }
 }

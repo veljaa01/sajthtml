@@ -27,10 +27,36 @@
         
     </nav>
 
-    <div id="contact" class="content">
-        <h2>Kontakt</h2>
-        <p>Ovde nas kontaktirajte!S</p>
-    </div>
+        <h2 class="naslovKontakt">Kontakt</h2>
+
+<input type="text" name="first" placeholder="Ime" autocomplete="off" required>
+<input type="text" name="first" placeholder="Prezime" autocomplete="off" required>
+<input type="email" name="email" placeholder="Email Adresa" autocomplete="off" required>
+<textarea rows="5" cols="60" name="Poruka" placeholder="Unesite poruku" autocomplete="off"></textarea>
+
+
+<!-- Radiobox za odabir teme -->
+<div class="radio-group">
+    <label>
+        <input type="radio" name="tema" value="pohvala" required> Pohvala
+    </label>
+    <label>
+        <input type="radio" name="tema" value="zalba" required> Žalba
+    </label>
+    <label>
+        <input type="radio" name="tema" value="pitanje" required> Pitanje
+    </label>
+</div>
+
+<!-- Checkbox za saglasnost -->
+<div class="checkbox-group">
+    <label>
+        <input type="checkbox" name="saglasnost" required> Slažem se sa <a href="https://www.termsandconditionsgenerator.com" target="_blank">uslovima korišćenja</a>
+    </label>
+</div>
+
+
+<button type="submit">Posalji Poruku</button>
 
 
 </body>
