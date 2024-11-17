@@ -11,14 +11,17 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav {
-    height: 80px;
-    background-color: rgb(219, 239, 182);
-    display: flex;
+   padding: 10px 30px;
+   display: flex;
+   justify-content: space-between;
+   background: rgb(219, 239, 182);
+   height: 70px;
     
 }
 nav ul {
+    display: flex;
+    gap: 30px;
     list-style: none; /*da nema onih krugova*/
-    display: flex;  /*slova idu na desno*/
    
 }
 nav ul li {
@@ -211,15 +214,7 @@ button:hover {
     margin: 20px 0;
 }
 
-.dugmeHome {
-    background-color: green;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 18px;
-    border-radius: 5px;
-    cursor: pointer;
-}
+
 
 .galerija {
     padding: 40px 12%;
@@ -333,8 +328,34 @@ button:hover {
     margin-bottom: 10px;
 }
 
-@media (max-width: 800px) {
-    body {
-        font-size: 13px; /* Smanjim font na telefonu */
+@media (max-width: 600px) {
+    nav ul {
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: rgb(219, 239, 182);
+        gap: 0;
     }
+    nav ul li {
+        padding: 20px;
+    }
+
+   .naslovProizvodi {
+    padding-top: 200px;
+   }
+
+   .naslovOnama {
+    padding-top: 200px;
+   }
+
+   .naslovKontakt {
+    padding-top: 250px;
+   }
+
+   .naslovHome {
+    padding-top: 200px;
+   }
+
 }
